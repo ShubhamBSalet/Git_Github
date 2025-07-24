@@ -1,0 +1,22 @@
+git --version : to check version of github
+
+git config --global user.name 'SHUBHAM' : for setup username 
+git config --global user.email 'samsalet8@gmail.com' : for setup email
+
+git config user.name : to see username
+git config user.email : to see email
+
+git init : to initialize empty repo
+
+git config --global init.defaultBranch main : to configure default branch as main branch
+
+git status : tell you [ Current branch, are there any commits, untracked files]
+
+git add file_name : will add new or changed files in your working directory
+
+git commit -m 'Message' : It records a snapshot of your files at a certain time, with a message describing what changed. (-m is for message)
+
+git add ./ : will add new or changed all files in your working directory
+
+
+git: 6:00
