@@ -1,22 +1,69 @@
-git --version : to check version of github
+git --version : 
+to check version of github
 
-git config --global user.name 'SHUBHAM' : for setup username 
-git config --global user.email 'samsalet8@gmail.com' : for setup email
+git config --global user.name 'SHUBHAM' : 
+for setup username 
 
-git config user.name : to see username
-git config user.email : to see email
+git config --global user.email 'samsalet8@gmail.com' : 
+for setup email
 
-git init : to initialize empty repo
+git config user.name : 
+to see username
 
-git config --global init.defaultBranch main : to configure default branch as main branch
+git config user.email : 
+to see email
 
-git status : tell you [ Current branch, are there any commits, untracked files]
+git init : 
+to initialize empty repo
 
-git add file_name : will add new or changed files in your working directory
+git config --global init.defaultBranch main : 
+to configure default branch as main branch
 
-git commit -m 'Message' : It records a snapshot of your files at a certain time, with a message describing what changed. (-m is for message)
+git status : 
+tell you [ Current branch, are there any commits, untracked files]
 
-git add ./ : will add new or changed all files in your working directory
+git add file_name : 
+will add new or changed files in your working directory
+
+git add ./ : 
+will add new or changed all files in your working directory
+
+git commit -m 'Message' : 
+It records a snapshot of your files at a certain time, with a message describing what changed. (-m is for message)
+
+git log : 
+to see all history of git 
+
+git checkout commit_hash : 
+used to switching between branches, new branches, restore file (commit_has will you get in git log command)
+
+git checkout -f branch_name : 
+used to force switch to a different branch or commit and discard any local changes or uncommitted modifications made to the current branch
+
+git branch -M main : 
+used to rename the current branch to main in a Git repository
+
+git remote remove origin:
+used to remove the origin(is the name of GitHub repo) 
+
+git remote add origin git@github.com:ShubhamBSalet/Git_Github.git : 
+Adds a new remote connection to GitHub repo.
+
+git push -u origin main : 
+add origin to GitHub repo (-u = sets the upstream so that future git push commands will automatically know where to push)
+
+git branch branch-name:
+create new branch
+
+git checkout branch-name:
+jump to main branch to branch-name
+
+git checkout main
+jump to branch-name to main-branch
+
+git checkout -b new_branch_name
+create & jump to new branch
 
 
-git: 6:00
+
+git: 16:00
