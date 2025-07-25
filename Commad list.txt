@@ -64,6 +64,33 @@ jump to branch-name to main-branch
 git checkout -b new_branch_name
 create & jump to new branch
 
+*************************************************************************************************************
+$ git branch dev-jsm
+
+$ git chekout dev-shubham
+
+$ git add .
+// after adding content in readme file (by dev-shubham)
+
+$ git commit -m 'Modify the readme by changing the heading and adding new line'
+
+$ git push -u origin dev-shubham
+
+$ git checkout dev-jsm
+
+$ git add .
+// after adding content in readme file (by dev-jsm)
+
+$ git commit -m 'Today, i woke up and drank some cofee then i sat at the table and added few lines of code'
+
+$ git push -u origin dev-jsm
+
+$ git checkout main 
+
+
+
+
+
 
 
 git: 16:00
